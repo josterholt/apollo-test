@@ -1,0 +1,21 @@
+{
+  "name": "apollo-server-test",
+  "dependencies": {
+    "apollo-datasource": "^0.7.3",
+    "apollo-server": "^2.21.1",
+    "apollo-server-testing": "^2.21.1",
+    "graphql": "^15.5.0",
+    "mysql2": "^2.2.5",
+    "nodemon": "^2.0.7",
+    "sequelize": "^6.5.0"
+  },
+  "author": "Justin Osterholt",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon src/index.js",
+    "start:ci": "node src/index.js"
+  },
+  "devDependencies": {
+    "apollo": "^2.32.5"
+  }
+}
