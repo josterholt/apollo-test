@@ -47,3 +47,6 @@ query GetAlbumAndArtist {
   }
 }
 ```
+
+## Additional Documentation
+[How it works](https://github.com/josterholt/apollo-test/wiki/How-it-Works)
